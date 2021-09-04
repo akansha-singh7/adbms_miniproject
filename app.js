@@ -37,7 +37,7 @@ passport.deserializeUser(User.deserializeUser());
 
 // Showing home page
 app.get("/", function (req, res) {
-	res.render("home");
+	res.render("index.html");
 });
 
 // Showing secret page
